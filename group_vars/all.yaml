@@ -96,6 +96,12 @@ ilke_features:
     enabled: false
     crontab: "* 2 * * *"
     day_retention: 14
+  gatekeeper:
+    enabled: true
+    release: v3.4.0
+    replicas:
+      #audit: 1
+      controller_manager: 3
 
 ilke_populate_etc_hosts: false
 
